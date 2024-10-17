@@ -1,356 +1,147 @@
-const prop=`1 
- 
-Task 1 – Proposal for Health Advice Group 
-Contents 
-Solution Description ............................................................................................................................... 1 
-Why a website? ................................................................................................................................... 1 
-Solution Detailed ................................................................................................................................. 2 
-Conclusion ........................................................................................................................................... 2 
-Business Context .................................................................................................................................... 2 
-Functional and Non-Functional Requirements ..................................................................................... 3 
-Expanding Functional Requirements ................................................................................................. 3 
-Decomposition of Functional Requirements ..................................................................................... 4 
-Methodology .......................................................................................................................................... 5 
-Legislation, Regulation and Risks........................................................................................................... 5 
-Legislation ........................................................................................................................................... 5 
-Regulations ......................................................................................................................................... 5 
-Risks .................................................................................................................................................... 6 
-KPIs and User Acceptance Criteria ......................................................................................................... 6 
-KPIs and Metrics ................................................................................................................................. 6 
-User Acceptance Criteria .................................................................................................................... 7 
-Appendix ................................................................................................................................................. 8 
- 
-Solution Description 
-Based on the specifications set out by Health Advice Group for their desired solution, I believe that a 
-web-based platform would be the most effective form that this digital solution could take. The 
-website would offer multiple pages, all of which could be accessible from a single navigation bar for 
-ease of use. It would be effective and handling the number of users that may have access to the 
-solution, and its nature as a website would offer a number of advantages. 
-Why a website? 
-Firstly, a website allows end users access so long as they have an up-to-date web browser which 
-most, if not all, devices will have pre-installed, and is therefore accessible always. Whilst an 
-application could also suit this solution, separate versions would need to be developed in order to 
-accommodate the different Operating Systems that devices like Computers, Phones and some 
-Laptops run-on, which may be time consuming and would mean users must install the app on every 
-device they intend to use. A web-based platform is instead very scalable, and so can be built to suit 
-many devices under one coherent version. In addition, since this solution will be giving up-to-date 
-and accurate information to its users, the appeal of developing an app for its offline capabilities does 
-not fit, as users will need to have an internet connection to use these services. As a result, from a 
-technical standpoint, a website is the most suitable option. 
-Secondly, websites have far stricter conventions when it comes to how they are designed. Their 
-layouts are more rigid and follow simple rules that means when a user comes to access the site, they 
-will not struggle with navigating through their options. This would mean that it could accommodate 
-for a variety of user demographics by keeping to these design rules, whilst still allowing for 
-personality and flexibility surrounding how the website will look and feel. An app has more room to 
-be unique, however could be difficult to manage for those who are not used to using technology as 
-there are less clear conventions and rules with how an app must be designed. 
-Solution Detailed 
-The planned solution will break down the key features and elements that Health Advice Group are 
-looking for into four individual pages. Each page will focus around a specific element to help group 
-relevant features together, so that the website is more intuitive and therefore easier to navigate.  
-Home Page – This page will be the welcome page for all users, with space for Health Advice Group to 
-explain what they do, how the website operates/the features within it, and other important 
-information. This page will be brief, but is the starting point that allows users to reach all other 
-pages. 
-Location Page – This page will showcase all of the location-based features that Health Advice Group 
-provide. It will allow users to choose their nearest location from a set of options, and will show the 
-air quality, pollen count and temperature. In addition, there will be links to external weather sources 
-which can also provide users with more up-to-date or specific information. 
-Advice Page – This page will act as a hub for information, where users can visit to understand the 
-context behind the information presented to them on the location page. It will feature links to 
-health sources about the effects of the weather on health, as well as articles from the website itself 
-that showcase the advice that Health Advice Group offers. It will also show sources form other 
-health bodies like the NHS and DEFRA, detailing specific health risks associated with the weather and 
-how certain information is measured. 
-Account Page – This page and its subpages will allow users to login and then view their account 
-specific data. They will be able to view their account info and edit it, adjust relevant accessibility 
-features and track health progress, in this case through features like a BMI calculator. Other 
-elements could be added in the future to improve this feature. 
-The solution will be written in a combination of HTML, CSS, JavaScript and SQL (potentially also 
-including some PHP elements). HTML and CSS are the structural and styling languages, whilst 
-JavaScript and PHP will be used for the programming and logic elements of the website, and also to 
-connect to an SQL database. SQL will be the language used to create the database elements for the 
-website. 
-Conclusion 
-In conclusion, this solution would be able to offer all of the features that Health Advice Group are 
-interested in displaying in a clear and simple design that would take the form of a website. This 
-proposed solution would separate each feature into clear pages that would make the solution easy 
-to navigate, along with a consideration of key accessibility options for users to alter the website’s 
-design to best suit them. 
-Business Context 
-Health Advice Group will see a number of benefits by choosing to introduce a digital solution to new 
-and existing users. Firstly, the health sector is widely adopting more software to greatly improve the 
-2 
-efficiency and availability of certain features. By choosing to create a solution of their own, Health 
-Advice Group are bringing themselves in line and up-to-date with competitors and businesses who 
-are offering similar services and also make use of digital options. 
-For example, Health Advice Group’s interest in developing a personal health tracking tool is not 
-dissimilar from existing applications and businesses, such as the rise in popularity of smart-devices 
-that can monitor health information like Fitbit and Apple smart watches. Health Advice Group will 
-meet the expectations of the market which expects this kind of technology and greatly improve their 
-standing and notoriety as a business amongst similar organisations. 
-Secondly, by implementing this solution Health Advice Group will see an increase in their 
-users/clients. This solution will be widely available and therefore will have a greater reach – allowing 
-Health Advice Group to regain the interest of their existing users and open their operations up to a 
-greater range of users who will be able to visit the website and recognise the features that Health 
-Advice Group can offer them. 
-Functional and Non-Functional Requirements 
-In this section, the functional and non-functional requirements of this solution are identified and 
-justified. The functional requirements are the minimum necessary elements for the solution to 
-achieve what Health Advice Group are asking for, and the non-functional requirements are 
-additional elements that are still important, but do not effect the way the solution operates. 
-Functional Requirements 
-1. Weather forecasting - 
-Cold weather/weather elements 
-involved - - 
-Allergens, Asthma warning, Hay 
-fever warnings 
-Embedded information 
-2. Air quality data  - 
-Pollution information - 
-Map/location 
-3. Advice on health matters - 
-NHS info embed 
-4. Health Tracker - 
-Inputs for exercise, diet info etc. - - 
-BMI Calculator 
-Account features. 
-5. Location data  - 
-Non-functional Requirements 
-1. Security - 
-Password strength test - - 
-Input validation 
-2FA and  Email verification 
-2. Accessibility - 
-Colour scheme adjuster - - 
-Dark/Light mode 
-Image alt text 
-3. Scalability - 
-Fits for a variety of screen sizes. 
-4. KPIs and Metrics - 
-Responsiveness - 
-Load handling 
-5. User Acceptance Criteria  
-Map shows nearest surgeries, 
-hospitals and POIs - 
-Shows relevant data for 
-temperature, air quality etc. 
-Expanding Functional Requirements 
-1. Weather forecasting 
-Connecting to APIs or providing embedded elements for users to provide relevant information. 
-Either embedded material within the website, or making use of external links to websites like the 
-Met Office, BBC Weather and others to provide this information. 
-3 
-2. Air quality Data 
-Same as above, either providing this info as part of an API or redirect to a given website to display 
-this information. 
-3. Advice on Health Matters 
-Dedicated page for this information, with info coming directly from Health Advice Group themselves. 
-Linking to another website will not be necessary for the purposes of this feature. 
-4. Health Tracker 
-These elements can fall under the ‘Account’ section of the website. Features may include an 
-embedded BMI Calculator, and can store data from user inputs about personal activity, diet, etc. 
-5. Location Data 
-Making use of a map based on user information (such as an address) that will provide useful info 
-such as the location of nearby hospitals, leisure centres, gyms, pharmacies etc.  
-Decomposition of Functional Requirements 
-Health Advice Group 
-Website 
-1.Home Page 
-2.Location Page 
-3.Account Page 
-4.Guidance Page 
-1.1About Section 
-1.2Certifications, 
-Awards etc. 
-2.1Weather 
-Forecasting 
-Connect to 
-API or Met 
-Office embed 
-2.2Air Quality 
-and Allergen 
-info. 
-Connect to 
-external 
-source  
-2.3Points of 
-Interest map 
-3.1Health 
-Tracking 
-Allow inputs 
-for exercise, 
-diet etc. 
-3.2BMI Calc 
-Store weight 
-and height, 
-display 
-outcome 
-3.3Settings/ 
-Accessibility 
-Light/dark 
-mode, font 
-sizes etc. 
-4.1General 
-Advice 
-4.2Articles/ 
-Blogs 
-4.3External 
-Info Sources  
-4 
-Methodology 
-When developing this solution, an Agile approach shall be used as the intended methodology. This 
-has a number of benefits, and is largely being selected due to the way development is organised. 
-The use of sprints will be able to separate development into the key functional requirements, where 
-each major feature is tackled separately before being integrated with one another as more are 
-finalised.  
-By focusing on one element at a time, there will be greater clarity during development as any 
-successful or failed processes can be evaluated at the end of each sprint. This feedback can then be 
-used to inform how future sprints are carried out, with the intent of making development a more 
-streamlined process. In addition, since the development team is small, there is not enough time to 
-develop these features in tandem. Splitting them apart will help iron out bugs and issues faster, and 
-mean that the correct amount of time and detail can be placed onto each important feature of the 
-solution.   
-Legislation, Regulation and Risks 
-There are a number of concerns that will need to be evaluated when creating the solution along with 
-ways to mitigate them, as well as regulations and guidelines that must inform elements of the 
-development process.  
-Legislation 
-There are a number of Acts that will govern how data and information is handled: - - 
-Data Protection Act (2018) and General Data Protection and Regulation (GDPR, 2018) – 
-governs how data is collected and managed, including ensuring that: 
-o Data is kept secure/safe (adhering to the integrity and confidentiality of data). 
-o Purpose limitation (data can only be used for its described purposes, often in the 
-form of Terms and Conditions). 
-o Data Minimisation (only requesting data that is necessary for the functions of 
-the solution). 
-o Accuracy (keeping information up-to-date). 
-Freedom Of Information Act (2000) – members of the public can request information 
-held by public bodies. Information used for the purposes of this website must be made 
-available upon request. 
-Regulations 
-The following regulations span a variety of disciplines, but are demonstrations of the types of 
-considerations that must be made during the development process: - 
-Patient/Doctor Confidentiality – whilst not operating as a means of organising 
-appointments, user information could refer to medical history that would normally be 
-kept confidentially. - - 
-Demographic suitability – considering the age ranges of potential users, and making sure 
-that content on the site is suitable for potential groups (e.g. adult or mature content is 
-kept from accounts that are below adult age). 
-W3C Regulations – conventions regarding how a website must be developed, such as 
-code organisation, such as Website Quality, Website Accessibility (including disabilities 
-and stability considerations). 
-5 
-Risks 
-When handling user data and developing a solution based on the internet, there are various risks 
-that must be properly assessed. 
-Security: - - - - 
-DoS and DDoS attacks – these types of Denial of Service attacks can render a website 
-completely inoperable – therefore, hardware and software used to support this solution 
-must be tested to ensure it can handle stress/load against the anticipated number of 
-average users. 
-Data Protection – making sure that data is properly secured at all stages, particularly in 
-transit (when transferred between devices) and in use (when it is being accessed). This 
-may include use of secure protocols like HTTPS to protect against man-in-the-middle 
-attacks, and encryption to make sure information is protected if there is a data breach. 
-SQL Injection – making sure that the website databases will not dump data if an attacker 
-gains access. Simple procedures such as validating inputs and customising error 
-messages so that the database structure is not recognisable. 
-Training – any individuals who are likely to interact with this data should be educated on 
-practices and actions necessary to keep this data safe. 
-KPIs and User Acceptance Criteria 
-KPIs and Metrics 
-Once the digital solution is completed and goes live, there are some elements that can inform how 
-well the site is succeeding and provide useful user data that can give an insight into how the solution 
-is being received. 
-1. Number of user sign-ups after a month 
-A simple away of measuring success, taking data from the number of people who have signed up to 
-the site is a very easy process. It provides valuable data about the traffic that the site is experiencing, 
-and can be used to compare the activity of their services both before and after the site is made 
-active. This will give the most clear indication of whether there has been a substantial increase in the 
-number of new users. 
-2. Session duration and activity 
-Monitoring the activity throughout the site is also a crucial way of identifying what specific features 
-are seeing activity. By monitoring session duration, this can give greater insight into how frequently 
-users are interacting with the site. In addition, it can highlight how specific services are performing 
-which in turn will allow these features to be evaluated – e.g. how easy are they to use, what do they 
-offer to a user etc. 
-3.  Traffic by Source 
-Another key way of breaking down important traffic data is by measuring the sources that they 
-come from. This could include whether they are discovering the site through advertisements, social 
-media , etc, and allow marketing strategies to be adjusted. Knowing what types of marketing or 
-advertising succeeds can help Health Advice Group make informed decisions and better understand 
-their userbase. 
-6 
-User Acceptance Criteria  
-When producing the solution, it will also be important to keep in mind the expectations that end 
-users will have for its functionality. A combination of user stories and sample expectations work as 
-an effective way to checklist certain features against the standards that exist for normal user 
-experiences when using a digital solution. The following general UX features should be considered: - - -  
-When a user logs into their account on one page of the website, they should remain 
-logged in when visiting other pages. 
-When a user makes changes/adjustments to the website through the settings features, 
-these should remain in place when visiting other pages. 
-User Story 1: 
-‘I am a user who wants to create an account so that my information can be saved for future visits to 
-the site.’ 
-Criteria: 
-1. Visit Login Page 
-2. Press ‘Sign-up’ button 
-3. Redirect to register page 
-4. Input Email and password 
-5. Confirm password 
-6. Email verification sent 
-7. Once verified, redirect to login page 
-8. Login and navigate to account page 
-User Story 2: 
-‘I am a user who wants to adjust some display settings so that the website layout is easier for me to 
-read and interact with’. 
-Criteria: 
-1. Visit settings page 
-2. Find accessibility settings 
-3. Click on ‘dark mode’ feature 
-4. Press ‘submit’ button to confirm changes 
-5. Page changes to dark mode format 
-6. Navigate back to previous page, where the dark mode persists 
-User Story 3: 
-‘I am a user who wants to view the air pollen count of two locations so that I can decide if my 
-allergies will be impacted when I travel’ 
-Criteria: 
-1. Visit the location info page 
-2. Select my nearest city/region from options available 
-3. Pollen count and air pollution info updates on website 
-4. Change city for another area 
-7 
-5. Pollen count adjust dynamically 
-Appendix 
-List of relevant regulations, laws and standards relating to the use of data and information in this 
-context. 
-Data Protection Act (2018) – Everyone responsible for using personal data has to follow strict rules, 
-known as ‘data protection principles’. They must make sure that information is: - 
-Used fairly, lawfully and transparently. - - - - - 
-Used for specified, explicit purposes. 
-Used in a way that is adequate, relevant and limited to only what is necessary. 
-Accurate and, where necessary, kept up to date. 
-Kept for no longer than is necessary. 
-Handled in a way that ensures appropriate security, including protection against 
-unlawful or unauthorised processing, access, loss, destruction or damage. 
-There are stronger protection against more sensitive information, such as race, ethnicity, political 
-opinions, religious belief, sex life or orientation, health, genetics etc. 
-Freedom of Information Act (2000) – Establishes a public ‘right to access’ in relation to information 
-held by public authorities. 
-Doctor-patient confidentiality – set of principles that keeps certain information kept in private 
-between a doctor/medical staff, and a given patient. It is a legal and ethical duty, that should be 
-considered in this context based on the information that is being provided by users. 
-W3C Standards – standards that act as blueprints for website creation. They cover elements of 
-accessibility, structure, and validation. These principles make sure that any website is developed 
-with a set of parameters that generate a consensus around how websites are managed and 
-designed. 
-Web Content Accessibility Guidelines (W3C Recommendation) – Covers a wide range of 
-recommendations for making content accessible, relating to people with disabilities, 
-accommodations for blindness and low vision, deafness and hearing loss, limited movement, 
-photosensitivity, learning disabilities and cognitive limitations. 
-8 `
+const prop=` Task 1: Proposal
+
+Executive Summary
+In today’s increasingly unpredictable weather conditions, public health is at risk, especially among vulnerable populations. This proposal outlines a comprehensive digital health advisory solution designed to provide users with real-time weather information, personalized health advice, and risk assessments for home environments. The platform will be accessible through a web-based dashboard that integrates various data sources, such as weather APIs, and offers tailored health insights based on individual needs. Furthermore, the platform will feature advanced accessibility options to cater to users of all abilities, including those with disabilities.
+
+The growing impact of climate change has made it essential for people to access accurate and localized weather information to manage health risks effectively. Severe weather conditions, such as extreme heat or cold, can exacerbate existing health issues, particularly among the elderly, children, and those with chronic illnesses. Additionally, the safety of home environments is increasingly affected by weather, requiring users to assess risks such as insulation quality, air filtration, and heating system reliability. By addressing these challenges, our platform will play a vital role in promoting the health and safety of users.
+
+This proposal details the key problems our platform seeks to address, the proposed digital dashboard's features, the technical considerations behind its development, the risks involved, and the wider issues of privacy and compliance. We will also outline key performance indicators (KPIs) and provide a timeline for achieving our objectives, using SMART and MoSCoW methodologies to structure our goals effectively.
+
+Problem Identification
+
+Key Problems to Address
+In an effort to improve the quality of life and protect public health, the platform will address the following issues:
+
+1. Access to Real-Time Weather Information
+   Individuals need real-time, localized data on temperature, air quality, and severe weather alerts to make informed decisions regarding their health and safety. Current solutions often lack precise information for smaller geographic areas or do not provide actionable health guidance based on weather data.
+
+2.Health Risks from Extreme Weather
+   Vulnerable populations, including the elderly, children, and those with pre-existing health conditions, are particularly susceptible to health issues caused by extreme weather events such as heatwaves, cold snaps, and poor air quality. These individuals need specific advice on how to manage their health during such periods.
+
+3.Home Environment Risk Assessments
+   The increasing frequency of severe weather conditions necessitates tools that help users evaluate and mitigate risks in their home environments. For example, poor insulation or faulty heating systems can be life-threatening during extreme cold
+
+4. Personalized Health Information
+   Generic health advice may not be effective for individuals with unique health conditions or living in specific environments. Users require personalized health advice that takes into account their medical history, local weather conditions, and home setup.
+
+5. Accessibility
+   It is essential that the platform is accessible to individuals of all abilities, including those with visual, auditory, or cognitive impairments. The platform should comply with accessibility standards and offer customizable features to meet diverse user needs.
+
+Proposed Solution
+
+Digital Dashboard Features
+The digital health advisory platform will be a web-based dashboard with the following core features:
+
+1. Real-Time Weather Information
+   By integrating Free Weather APIs, the platform will provide real-time updates on temperature, humidity, air quality, and severe weather alerts. Users will have access to data that is localized to their specific geographic area, allowing them to prepare for and respond to changing weather conditions. This feature is essential for planning daily activities and avoiding exposure to harmful weather conditions.
+
+2. Health Guidance
+   The platform will offer tailored health advice based on real-time weather conditions. For example, during a heatwave, the system will advise users to stay hydrated, avoid strenuous outdoor activities, and seek cooler environments. In cold weather, the platform will suggest strategies for staying warm and preventing hypothermia. The health advice will be personalized, taking into account any pre-existing conditions the user may have.
+
+3. Home Environment Risk Assessments
+   The platform will include an interactive tool that enables users to assess risks in their living environment. For example, the tool can help users evaluate the effectiveness of their home’s insulation, air quality filtration, or heating system, and provide recommendations for improvements based on the current or forecasted weather. Users can take proactive steps to mitigate risks and ensure that their home environment is safe.
+
+4. Personalized User Profiles
+   Users will be able to create profiles where they input their health conditions, medications, and other relevant personal information. The platform will use this data to provide health advice that is tailored to the user’s specific situation. For example, a user with asthma will receive advice related to poor air quality, while someone with cardiovascular issues will be warned of potential risks during extreme heat.
+
+Technical Considerations
+To ensure the platform operates smoothly and securely, we will implement the following technical solutions:
+
+1.Data Handling
+   The platform will have a robust backend built with PHP, running on a XAAMP stack. This ensures efficient handling of data and secure database management. Weather data will be retrieved using third-party APIs, while user data will be securely stored in our own database.
+
+2.Security Measures
+   Given the sensitive nature of health data, security is a top priority. The platform will implement several security measures, including:
+   - SSL/TLS encryption  for secure data transmission between users and the server.
+   - Data input validation  to prevent attacks such as cross-site scripting (XSS) and SQL injection.
+   - Anonymization techniques to protect personal health data, ensuring compliance with privacy regulations.
+
+3. Accessibility Features
+   To cater to users of all abilities, the platform will be designed in compliance with W3C accessibility standards. Key features will include:
+   - Alt text for images to assist visually impaired users.
+   - Resizable fonts and adjustable color schemes for individuals with visual impairments.
+   - Keyboard navigation for users who cannot use a mouse.
+
+Risk Mitigation
+The following risks have been identified, along with strategies to mitigate them:
+
+1. Malicious Use
+   Strict data input validation and content security policies will be implemented to prevent unauthorized access and manipulation of data. These measures will also help protect the platform from malicious users who may attempt to exploit vulnerabilities.
+2.Data Accuracy
+   To ensure the accuracy of weather data, the platform will cross-check information from multiple reliable sources. This redundancy will help mitigate any inaccuracies that may arise from a single source of data, ensuring that users receive the most reliable information possible.
+
+3. Privacy Compliance
+   The platform will strictly adhere to privacy regulations such as GDPR (General Data Protection Regulation) and HIPAA (Health Insurance Portability and Accountability Act). User data will be anonymized and encrypted, and users will have full control over what data is shared.
+
+Wider Issues and Compliance
+
+Privacy
+The platform will comply with all relevant privacy regulations, including GDPR and HIPAA, to ensure that user data is fully protected. All personal health information will be encrypted and anonymized to prevent unauthorized access or misuse. Users will have full control over their data, including the ability to delete their accounts and data at any time.
+User Support
+To ensure that users can get the most out of the platform, we will implement a comprehensive user support system. This will include an FAQ section, live chat support, and a feedback mechanism where users can report issues and suggest improvements. This feedback will be invaluable for future updates to the platform, ensuring that it continues to meet user needs.
+
+Regulatory Compliance
+The platform will comply with W3C accessibility standards and best practices for health-related applications. This ensures that the platform is accessible to all users and that it meets the highest industry standards for digital health solutions.
+
+Functional and Non-Functional Requirements
+
+Functional Requirements
+1. User registration and profile management, including the ability to input and update health information.
+2. Integration with real-time weather APIs to provide localized weather data.
+3. Health advice tailored to individual user profiles based on real-time weather conditions.
+4. Interactive risk assessment tools for home environments to guide users in improving safety.
+
+Non-Functional Requirements
+1. Performance: The dashboard should load within 3 seconds to ensure a smooth user experience.
+2. Scalability: The platform should be capable of handling up to 10,000 concurrent users without performance degradation.
+3. Usability: The user interface should be intuitive and easy to navigate, ensuring that users of all abilities can access the platform's features with ease.
+4. Security: The platform must include two-factor authentication (2FA) to ensure secure access.
+5. Responsiveness: The design must be responsive, offering a seamless experience across devices, including desktops, tablets, and smartphones.
+
+Key Performance Indicators (KPIs)
+To measure the success of the platform, we will track the following KPIs:
+
+1. User engagement metrics, including the average time users spend on the platform and the number of active users.
+2. Feedback scores on the usability of the platform and the relevance and accuracy of the health advice provided.
+3. Data accuracy, particularly regarding weather information, which will be cross-checked against multiple reliable sources.
+
+User Acceptance Criteria
+1. Users should be able to navigate the dashboard easily and access personalized health information with minimal effort.
+2. Feedback from users should indicate a high level of satisfaction with the platform’s usability, accuracy, and relevance of health advice.
+3. The platform should meet all W3C accessibility standards, validated through user testing with individuals of varying abilities.
+
+SMART Targets
+
+To ensure that we meet our project goals, we have set the following SMART targets:
+
+- Specific: Increase user engagement by raising the average time spent on the platform by 30% within the next six months. This will be achieved by adding interactive features such as a weather quiz and a user forum.
+
+  
+- Measurable: Achieve a 50% increase in monthly unique visitors within the next quarter. This will be accomplished by optimizing the platform’s SEO and launching a targeted social media campaign.
+
+- Achievable: Publish at least 12 new articles each month on diverse weather-related topics, such as seasonal forecasts, severe weather preparedness, and the impact of climate change.
+
+- Relevant: Improve the newsletter subscription rate by 25% over the next three months by offering exclusive content, such as personalized weather alerts and tips for staying safe during extreme weather events.
+
+- Time-bound: Conduct a user satisfaction survey within the next month and implement at least three major user-suggested improvements within the following two months.
+
+MoSCoW Targets
+
+To prioritize features and deliverables, we have outlined the following MoSCoW targets:
+
+- Must-have: Real-time weather updates, including severe weather alerts and forecasts, must be implemented within the next month to ensure users receive timely information.
+  
+- Should-have: The platform should be redesigned to offer improved navigation and mobile responsiveness within the next three months, enhancing the overall user experience.
+  
+- Could-have: Interactive tools such as a customizable weather dashboard and storm tracker could be developed within the next six months to increase user engagement.
+  
+- Won’t-have (at this time): International coverage, providing weather forecasts and advice for users outside the initial geographic area, will be deferred for at least a year. Current resources will focus on local weather data and solutions.
+
+Conclusion
+This digital health advisory solution is designed to address the growing public health challenges posed by changing weather patterns. By integrating real-time weather data, personalized health advice, and risk assessments for home environments, the platform will empower users to take control of their health and safety. The platform’s accessibility features ensure that it will be usable by individuals of all abilities, while its robust security measures will protect sensitive health data. By setting clear goals and adhering to industry standards for privacy and regulatory compliance, we aim to create a digital health solution that is both practical and reliable.
+
+The proposed platform not only aligns with current best practices in digital health technology but also provides an opportunity for continuous growth and improvement. Our SMART targets and MoSCoW prioritization ensure that we are focused on delivering the most critical features first, while planning for future enhancements. With user feedback and iterative improvements, we aim to create a comprehensive and user-friendly digital health advisory solution that promotes safety and well-being in an increasingly unpredictable world.
+`
 function copy(){
   navigator.clipboard.writeText(prop)
 
